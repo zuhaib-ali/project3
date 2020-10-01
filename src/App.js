@@ -3,7 +3,6 @@ import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import Products from './components/Products';
-import ProductDetails from './components/ProductDetails';
 import Error from './components/Error';
 import { Switch, Route } from 'react-router-dom';
 
