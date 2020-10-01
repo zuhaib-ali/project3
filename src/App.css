@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+#shoes_list li{
+  list-style-type: none;
+  margin:10px 20px;
+  
+}
+
+#shoes_list{
+  display:flex;
+  flex-wrap: wrap;
+}
+img{
+  height:180px;
+}
+#shoes_list li div{
+  border:1px solid lightgrey;
+  text-align: center;
+  text-transform: capitalize;
+  justify-content: space-around;
+}
+
+#links ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.Link{
+  text-decoration: none;
+}
