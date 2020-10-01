@@ -45,7 +45,6 @@ const shoes = {
     },
 }
 
-let i = 0;
 function call(para) {
     setTimeout(() => {
         let shoes_list = document.getElementById("shoes_list");
